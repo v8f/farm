@@ -1,0 +1,19 @@
+html {
+	background: dimgray radial-gradient(black 5.5px, dimgray 0) center / 15px 15px;
+	height: 100vh;
+	overflow: hidden;
+}
+body {
+	background: transparent radial-gradient(transparent 5px, black 0) center / 15px 15px;
+	position: absolute;
+	top: -50vw;
+	right: -50vh;
+	bottom: -50vw;
+	left: -50vh;
+	animation: 20s rotate infinite ease-in-out;
+}
+@keyframes rotate {
+	to {
+		transform: rotate(90deg);
+	}
+}
